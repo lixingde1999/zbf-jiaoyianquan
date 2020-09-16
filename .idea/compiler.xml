@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zbf-common" />
+        <module name="zbf-user-server" />
+        <module name="zbf-gateway" />
+        <module name="zbf-auth-core" />
+        <module name="yzm-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yzm-service" options="-parameters" />
+      <module name="zbf-auth-core" options="-parameters" />
+      <module name="zbf-common" options="-parameters" />
+      <module name="zbf-gateway" options="-parameters" />
+      <module name="zbf-user-server" options="-parameters" />
+    </option>
+  </component>
+</project>
